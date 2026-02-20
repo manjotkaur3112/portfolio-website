@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg,#0220ff, #b3ff00);
+    font-family: system-ui;
+}
+
+section.navigation {
+    justify-items: center;
+}
+
+nav.nav-bar {
+    width: 50%;
+}
+
+ul.navigation-list {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(9deg, black);
+    margin: 5px;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+
+li.nav-list {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white !important;
+    padding: 7px 21px;
+    border-radius: 5px;
+}
+/* hover */
+.nav-list a:hover{
+    background: linear-gradient(60deg, #b3ff00,#0220ff);
+    color: white;
+}
+
+/* visit karne par color */
+.nav-list a:visited {
+    color: darkkhaki;
+}
+
+/* active */
+.nav-list a:active{
+    background-color: green;
+}
+
+/* focus karna jab click karte hain */
+.nav-list a:focus{
+    background-color: whitesmoke;
+}
+
+/* home */
+.home{
+    display:  flex;
+}
+.myImage img {
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    border-radius: 50%;
+    display: block;
+}
