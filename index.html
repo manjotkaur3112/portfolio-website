@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -16,23 +18,34 @@
                     <li class="nav-list"><a href="#education">Education</a></li>
                     <li class="nav-list"><a href="#skills">Skills</a></li>
                     <li class="nav-list"><a href="#projects">Projects</a></li>
+                    <li class="nav-list"><a href="#certificates">Certificates</a></li>
                     <li class="nav-list"><a href="#contact-us">Contact Us</a></li>
                 </ul>
+                <div class="menu-bar">
+                    <img src="assets\images\menu-bar.png" alt="">
+                </div>
             </nav>
         </section>
     </header>
     <main>
         <section class="home" id="home">
-            <article>
-                <div class="myImage">
-                    <img src="assets/images/myImage.jpg" alt="My Image">
-                </div>
-            </article>
-            <article>
+            <div class="home-image">
+                    <div class="myImage">
+                        <img src="assets/images/myImage.jpeg" alt="My Image">
+                    </div>
+                    <div class="connect-with-me">
+                        <h3>Connect with me</h3>
+                        <a href="https://www.linkedin.com/in/manjot-kaur-31sblkg/"><img src="assets\images\social-account\linkedin.png" alt=""></a>
+                        <a href="https://github.com/manjotkaur3112"><img src="assets\images\social-account\github.png" alt=""></a>
+                        <a href="https://www.instagram.com/jot_grewal30/"><img src="assets\images\social-account\instagram.png" alt=""></a>
+                        <a href="tel:+919782100977"><img src="assets\images\social-account\whatsapp.png" alt=""></a>
+                    </div>
+            </div>
+            <div class="home-content">
                 <div class="details">
-                    <h2 class="myName">Hi, I am </h2>
+                    <h2 class="name">Hi, I'm </h2>
                     <h1 class="name-heading">Manjot Kaur</h1>
-                    <h2 class="interest">Full Stack Developer</h2>
+                    <h2 class="content">Full Stack Developer</h2>
                 </div>
                 <div class="area-of-interest">
                     <span class="knowledge">Web Development</span>
@@ -44,41 +57,363 @@
                 </div>
                 <div class="description">
                     <p class="about-me">
-                        I am a passionate and dedicated full stack developer with a strong background in web development, cyber security, cloud computing, Azure AI, system design, and design thinking. 
-                        With a keen eye for detail and a commitment to delivering high-quality solutions, I thrive in dynamic and collaborative environments. 
+                        I am a passionate and dedicated full stack developer with a strong background. 
                         My expertise spans across both front-end and back-end development, allowing me to create seamless and efficient applications that meet user needs. 
                         I am constantly seeking new challenges and opportunities to expand my skill set and contribute to innovative projects.
                     </p>
                 </div>
                 <div class="contact-resume">
                     <a href="#contact-us">Contact Me</a>
-                    <a href="assets/files/resume.txt">Resume</a>
+                    <a href="assets/files/resume.pdf">Resume</a>
                 </div>
-            </article>
+            </div>
         </section>
         <section class="about" id="about">
         </section>
         <section class="education" id="education">
-            <article>
-
+            <h2 class="content-heading">Education</h2>
+            <article class="education-detials">
+                <h3 class="education-name">B.Tech in Computer Science and Engineering (Specialization: Generative AI)</h3>
+                <p class="education-score">7.77 CGPA - 2028</p>
+                <span class="education-location">Lovely Professional University, Punjab</span>
+            </article>
+            <article class="education-detials">
+                <h3 class="education-name">Senior Secondary (Class XII)</h3>
+                <p class="education-score">80.40 % - 2024</p>
+                <span class="education-location">Swami Keshavnanda Children Public Sr. Sec. School, Hanumangarh, Rajasthan</span>
+            </article>
+            <article class="education-detials">
+                <h3 class="education-name">Diploma (ITI) - Computer Hardware And Network Maintenance</h3>
+                <p class="education-score">89.00 % - 2022</p>
+                <span class="education-location">Industrial Training Institute, Hanumangarh</span>
+            </article>
+            <article class="education-detials">
+                <h3 class="education-name">Secondary (Class X)</h3>
+                <p class="education-score">92.00 % - 2021</p>
+                <span class="education-location">Saraswati Model Sr. Sec. School, Goluwala, Hanumangarh, Rajasthan</span>
             </article>
         </section>
         <section class="skills" id="skills">
-            <article>
-
-            </article>
+            <h2 class="content-heading">Skills</h2>
+            <div class="skills-container">
+                <article class="container">
+                    <h3 class="skills-heading">Frontend Development</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">HTML</li>
+                        <li class="skills-name">CSS</li>
+                        <li class="skills-name">JavaScript</li>
+                        <li class="skills-name">Bootstrap</li>
+                        <li class="skills-name">React</li>
+                        <li class="skills-name">Figma</li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3 class="skills-heading">Cloud & Azure AI</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">AWS</li>
+                        <li class="skills-name">Cognitive Service</li>
+                        <li class="skills-name">Responsible AI</li>
+                        <li class="skills-name">AI Workloads</li>
+                        <li class="skills-name">RAG</li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3 class="skills-heading">Backend Development</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">PHP</li>
+                        <li class="skills-name">ExpressJS</li>
+                        <li class="skills-name">NodeJs</li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3 class="skills-heading">AI & ML</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">Machine Learning</li>
+                        <li class="skills-name">Deep Learning</li>
+                        <li class="skills-name">NLP</li>
+                        <li class="skills-name">Computer Vision</li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3 class="skills-heading">Database Management</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">MySQL</li>
+                        <li class="skills-name">MongoDB</li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3 class="skills-heading">Programming Languages</h3>
+                    <ul class="skills-list">
+                        <li class="skills-name">C</li>
+                        <li class="skills-name">C++</li>
+                        <li class="skills-name">Java</li>
+                        <li class="skills-name">Python</li>
+                    </ul>
+                </article>
+                
+            </div>
         </section>
         <section class="projects" id="projects">
-            <article>
-
-            </article>
+            <h2 class="content-heading">Projects</h2>
+            <div class="live-projects">
+                <div class="project-details">
+                    <article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="project-details">
+                    <article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="project-details">
+                    <article></article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <!-- <div class="project-details">
+                    <article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="project-details">
+                    <article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="project-details">
+                    <article>
+                        <h3 class="project-title">Myntra Clone</h3>
+                    </article>
+                    <article class="project-img">
+                        <img src="assets/images/myImage.jpeg" alt="">
+                    </article>
+                    <article class="technical-tools">
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                        <span class="used-languages">HTML</span>
+                    </article>
+                    <article class="project-description-container">
+                        <p class="project-description">This Project is very interactive and user-friendly. I create this project using HTML, CSS, and JavaScript in fronted in Backed i am using PHP and MySQL.</p>
+                    </article>
+                    <article class="project-buttons">
+                        <ul class="buttons-list">
+                            <li> <a href="">Git Hub</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </article>
+                </div> -->
+            </div>
+        </section>
+        <section class="certificate" id="certificates">
+            <h2 class="content-heading">Certificates</h2>
+            <div class="all-certificates">
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Responsive Web Design</h3>
+                    <p class="certificate-issuer">freeCodeCamp - 2026</p>
+                    <span class="view-button">
+                        <a href="https://www.freecodecamp.org/certification/manjotkaur29/responsive-web-design-v9">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Azure Data Fundamentals</h3>
+                    <p class="certificate-issuer">Microsoft Certified - 2025</p>
+             <span class="view-button">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7409861297967820800/?originTrackingId=KSG8ueq8buDrjXHstbR7lg%3D%3D">View</a>
+            </span>      
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Microsoft Azure Data Fundamentals - Badge</h3>
+                    <p class="certificate-issuer">Creadly by Pearson - 2025</p>
+             <span class="view-button">
+                <a href="https://www.credly.com/badges/1275c5fb-3493-42f3-90fb-6b06397a1a43/linked_in?t=t7s6h1">View</a>
+            </span>     
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">PHP Development</h3>
+                    <p class="certificate-issuer">Dextor Labs - 2025</p>
+             <span class="view-button">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7395939979543121920/?originTrackingId=t6q1YWBOfbXPf0HvTXH7Fg%3D%3D">View</a>
+            </span>     
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">ONE INDIA - ONE WORLD</h3>
+                    <p class="certificate-issuer">Lovely Professional University - 2025</p>
+                    <span class="view-button">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7360207033612066816/?originTrackingId=qU9bHzpf9dZp3nLz9kpamA%3D%3D">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Azure AI Fundamentals</h3>
+                    <p class="certificate-issuer">Microsoft Certified - 2025</p>
+                    <span class="view-button">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7359482266512691200/?originTrackingId=%2BEeFz2WiSx7e8Saf4Z4ECw%3D%3D">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Microsoft Azure Data Fundamentals - Badge</h3>
+                    <p class="certificate-issuer">Creadly by Pearson - 2025</p>
+                    <span class="view-button">
+                        <a href="https://www.credly.com/earner/earned/badge/a821fbd5-6d2c-4f03-9de9-534d0acd762a">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Azure Fundamentals</h3>
+                    <p class="certificate-issuer">Microsoft Certified - 2024</p>
+                    <span class="view-button">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7359090168911249408/?originTrackingId=uJ%2Bj4RI%2Bv5kx0mt3zk3Pvg%3D%3D">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Microsoft Azure Fundamentals - Badge</h3>
+                    <p class="certificate-issuer">Creadly by Pearson - 2024</p>
+                    <span class="view-button">
+                        <a href="https://www.credly.com/earner/earned/badge/953d2d89-a71b-431e-aae8-5ee0262b72bf">View</a>
+                    </span>
+                </article>
+                <article class="certificate-details">
+                    <h3 class="certificate-name">Git and GitHub</h3>
+                    <p class="certificate-issuer">Microsoft Learn Student Ambassadors Workshop - 2024</p>
+                    <span class="view-button">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7359844639677235202/?originTrackingId=Tgjmd7asS7pouEVkqjsmvQ%3D%3D">View</a>
+                    </span>
+                </article>
+            </div>
         </section>
         <section class="contact-us" id="contact-us">
-            <article>
-
-            </article>
+            <h2 class="content-heading">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <article class="contact-para">
+                    <p class="contact-description">Let's connect and collaborate on exciting projects!</p>
+                    </article>
+                    <article class="contact-info">
+                        <div class="email"><img src="assets\images\social-account\mail.png" alt=""><a href="mailto:manjotkaur311205@gmail.com">manjotkaur311205@gmail.com</a></div>
+                        <div class="number"><img src="assets\images\social-account\phone.png" alt=""><a href="tel:+919782100977">+91 9782100977</a></div>
+                        <div class="location"><img src="assets\images\social-account\location.png" alt=""><a href="https://www.google.com/maps/dir/31.2475648,75.7039104/">Lovely Professional University, Punjab</a></div>
+                    </article>
+                    <article class="social-accounts">
+                        <a href="https://www.linkedin.com/in/manjot-kaur-31sblkg/"><img src="assets\images\social-account\linkedin.png" alt=""></a>
+                        <a href="https://github.com/manjotkaur3112"><img src="assets\images\social-account\github.png" alt=""></a>
+                        <a href="https://www.instagram.com/jot_grewal30/"><img src="assets\images\social-account\instagram.png" alt=""></a>
+                    </article>
+                </div>
+                <div class="form">
+                    <!-- <label for="name">Name</label> -->
+                    <input type="text" name="name" id="name" placeholder="Enter your name...." required><br>
+                    <!-- <label for="number">Number</label> -->
+                    <input type="tel" name="number" id="number" placeholder="Enter Your Number...."><br>
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" name="email" id="email" placeholder="Enter your email...."><br>
+                    <!-- <label for="message">Message</label> -->
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message...." required></textarea>
+                    <div class="send-message">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <hr>
+        <p class="copyright">© 2026 Manjot Kaur. All rights reserved.</p>
+    </footer>
 </body>
 </html>
