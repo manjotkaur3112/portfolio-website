@@ -62,6 +62,8 @@ li.nav-list {
     background-color: whitesmoke;
 }
 
+
+
 /* home */
 .home {
     justify-items: center;
@@ -153,6 +155,18 @@ p.about-me {
     transform: scale(1.1);
 }
 
+/* about me */
+
+article.about-details {
+    width: 64%;
+    justify-self: center;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0px 20px 20px 20px;
+    padding: 24px;
+    margin: 32px;
+    line-height: 1.5;
+}
+
 
 /* education */
 
@@ -166,11 +180,11 @@ article.education-detials {
     padding: 32px;
     margin: 32px 0;
     justify-self: center;
-    width: 60%;
-    border-radius: 25px;
+    width: 64%;
+    border-radius: 5px;
     line-height: 2.0;
     border: none;
-    box-shadow: 0px 10px 5px 0px;
+    box-shadow: 0px 0px 20px 0px;
 }
 
 .education-score{
@@ -477,4 +491,32 @@ p.copyright {
     border-radius: 5px;
     background: linear-gradient(120deg, #b3ff00,#0220ff);
     border: 1px solid white;
+}
+
+
+.burger-list {
+    color: white;
+    display: block;
+    line-height: 2;
+    padding: 10px;
+}
+
+.menu-section {
+    position: absolute;
+    top: 35px;
+    background: black;
+}
+
+.close-button {
+    padding: 0 20px;
+}
+
+li.menu-list {
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
 }

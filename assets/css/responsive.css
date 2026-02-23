@@ -57,10 +57,15 @@ body{
     .menu-bar{
         display: none;
     }
-    
+    .menu-section{
+        display: none;
+    }
 }
 
 @media (max-width: 768px){
+    .menu-section{
+        display: none;
+    }
     .navigation-list{
         display: none !important;
     }
