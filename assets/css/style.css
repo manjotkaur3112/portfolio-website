@@ -178,6 +178,7 @@ article.education-detials {
     background: linear-gradient(180deg, #ffff, #b3ff00);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 
@@ -313,6 +314,7 @@ ul{
     background: linear-gradient(120deg, #b3ff00,#0220ff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 /* Certificates */
@@ -360,6 +362,7 @@ p.certificate-issuer {
     background: linear-gradient(120deg, #b3ff00,#0220ff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 
@@ -448,6 +451,7 @@ textarea {
     background: linear-gradient(120deg, #b3ff00,#0220ff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 /* footer */
